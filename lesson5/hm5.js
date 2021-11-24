@@ -63,25 +63,16 @@
 // list('Hello okten', 5);
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
-
+//
 // let list = (arr) => {
-//     for (let arrElement of arr) {
-//         if (typeof arrElement === 'number') {
-//             console.log(`Number List: ${arrElement}`);
-//         }
-//         if (typeof arrElement === 'string') {
-//             console.log(`String list: ${arrElement}`);
-//         }
-//         if (typeof arrElement === 'boolean') {
-//             console.log(`boolean List: ${arrElement}`);
-//         }
+//     document.write(`<ul>`)
+//     for (let z = 0; z < arr.length; z++) {
+//         document.write(`<li>${arr[z]}</li>`);
 //     }
+//     document.write(`</ul>`)
 // };
 //
-// list(a = [1, 2, 3, 4, 5]);
-// list(a = ['hello', 'okten', 'school']);
-// list(a = [true, false]);
-// list(a = [1, 2, 3, 'hello', 'okten', true, false]);
+// list(a = ['hello', 'okten', 1, 2, 3, 4, true, false]);
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 
