@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+   let arr = JSON.parse(localStorage.getItem('favorites'));
+   for (let item of arr) {
+       let userBox = document.createElement('div');
+       userBox.innerText = JSON.stringify(item);
+       document.body.appendChild(userBox);
+   }
+</script>
+</body>
+</html>
