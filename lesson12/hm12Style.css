@@ -1,0 +1,38 @@
+.allPostElement {
+    display: flex;
+    flex-wrap: wrap;
+}
+.allPostElement > div {
+    width: 270px;
+    display: flex;
+    margin: 19px;
+    border: 2px solid red;
+}
+.allPostElement > div > .idElement {
+    margin: 5px;
+}
+.allPostElement > div > .titleElement {
+    margin: 5px;
+}
+
+.allCommentsElement {
+    display: flex;
+    flex-wrap: wrap;
+}
+.allCommentsElement > div {
+    width: 250px;
+    margin: 26px;
+    border: 5px solid aqua;
+}
+.allCommentsElement > div > .idElement {
+    margin: 5px;
+}
+.allCommentsElement > div > .titleElement {
+    margin: 5px;
+}
+.allCommentsElement > div > .emailElement{
+    margin: 5px;
+}
+.allCommentsElement > div > .bodyElement {
+    margin: 5px;
+}
