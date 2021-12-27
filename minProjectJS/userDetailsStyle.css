@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.userDetailsInfo {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgba(86, 25, 173, 0.53);
+    background: rgba(0, 0, 0, 0.16);
+}
+.userID {
+    margin: 15px;
+    font-size: 26px;
+    font-style: italic;
+    width: 20px;
+}
+.userNAME {
+    margin: 15px;
+    font-size: 26px;
+    font-style: italic;
+    width: 190px;
+}
+.userUSERNAME {
+    margin: 15px;
+    font-size: 26px;
+    font-style: italic;
+    width: 170px;
+}
+.userEMAIL{
+    margin: 15px;
+    font-size: 26px;
+    font-style: italic;
+    width: 270px;
+}
+.userADDRESS{
+    margin: 15px;
+    font-size: 26px;
+    font-style: italic;
+    width: 140px;
+}
+.userPHONE{
+    margin: 15px;
+    font-size: 26px;
+    font-style: italic;
+    width: 200px;
+}
+.userWEBSITE{
+    margin: 15px;
+    font-size: 26px;
+    font-style: italic;
+    width: 50px;
+}
+.userCOMPANY{
+    margin: 15px;
+    font-size: 26px;
+    font-style: italic;
+    width: 200px;
+    position: relative;
+    left: 100px;
+}
+.btnElement {
+    cursor: pointer;
+    position: relative;
+    width: 1300px;
+    height: 60px;
+    top: 30px;
+    left: 120px;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.postElement {
+    margin: 70px 20px;
+    font-size: 30px;
+    font-style: italic;
+}
+.btnPost{
+    margin-left: 10px;
+    height: 25px;
+    font-style: italic;
+    font-size: 16px;
+    cursor: pointer;
+
+}
