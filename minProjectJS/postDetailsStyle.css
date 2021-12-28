@@ -26,6 +26,7 @@ body {
 
 .commentList{
     display: flex;
+    flex-wrap: wrap;
     border: 1px solid rgba(128, 128, 0, 0.32);
     background: rgba(40, 100, 0, 0.09);
 }
@@ -33,7 +34,7 @@ body {
 .commentElement {
     font-size: 14px;
     display: flex;
-    width: 320px;
+    width: 370px;
     margin: 50px 10px;
     border: 2px solid rgba(86, 25, 173, 0.53);
 }

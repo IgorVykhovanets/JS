@@ -10,6 +10,8 @@ let detailsArrInfo = JSON.parse(localStorage.getItem('user-details'));
 
 let userInfoDetails = document.getElementsByClassName('userDetailsInfo')[0];
 
+let postListDetails = document.getElementsByClassName('postListDetails')[0];
+
 {
     let idElement = document.createElement('div');
     idElement.classList.add('userID');
@@ -96,7 +98,7 @@ let userInfoDetails = document.getElementsByClassName('userDetailsInfo')[0];
                         let postDivElement = document.createElement('div');
                         postDivElement.classList.add('postElement');
                         postDivElement.innerText = postItem.title;
-                        document.body.appendChild(postDivElement);
+                        postListDetails.appendChild(postDivElement);
                         let btnPostElement = document.createElement('button');
                         btnPostElement.classList.add('btnPost');
                         btnPostElement.innerText = 'post details info';
