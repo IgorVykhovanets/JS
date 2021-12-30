@@ -63,18 +63,22 @@
 // [0,1,2,3,4] => [1,2,3,4,0]
 // [0,0,1,0]   => [1,0,0,0]
 
-let arrElement = (arr) => {
-    for (let z = 0; z < arr.length; z++) {
-        if (arr[z] === 0) {
-            let num = arr[z];
-            arr[z] = arr[arr.length - 1];
-            arr[arr.length - 1] = num;
-        }
-    }
-    console.log(arr);
-};
-
-arrElement(a = [1, 0, 6, 0, 3]);
-arrElement(b = [0, 1, 2, 3, 4]);
-
-// Це завдання невдається зробити
+// let arrFunk = (nums) => {
+//     let count = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] !== 0) {
+//             nums[count++] = nums[i];
+//         }
+//     }
+//     for (let i = count; i < nums.length; i++) {
+//         nums[i] = 0;
+//     }
+//     console.log(nums)
+// };
+//
+//
+// arrFunk([1, 0, 6, 0, 3]);
+//
+// arrFunk([0, 1, 2, 3, 4]);
+//
+// arrFunk([0, 0, 1, 0]);
